@@ -22,3 +22,7 @@ body {
 
 .card_body {
 }
+
+.hidden {
+  visibility: hidden;
+}
