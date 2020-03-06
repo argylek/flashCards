@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Scott Key Flash Card game</title>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="fc.css" />
+</head>
+  </head>
+  <body>
+    <h1>Flash Card Implementation</h1>
+    <div id="score">
+      <div id="correct">
+        correct = 0
+      </div>
+      <div id="incorrect">
+        incorrect = 0
+      </div>
+      <div id ="reset_board">
+        <button>Reset Board</button>
+      </div>
+    </div>
+    <div id="card_creation">
+      <form onsubmit="addCard()">
+        <label for="title">Card Title
+          <br>
+          <input type="text" id="title" name="title"><br>
+        </label>
+        <label for="body">
+          Card Body
+          <br>
+          <input type="text" id="body" name="body">
+        </label>
+        <button type="submit" value="Submit">
+      </form>
+      <button id="new_card">add</button>
+      <button>delete all</button>
+    </div>
+    <div id="cards_container">
+    </div>
+    <script src="fc.js"></script>
+  </body>
+</html>

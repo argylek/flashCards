@@ -1,0 +1,21 @@
+body {
+  margin: 30px;
+}
+
+#score {
+}
+#correct {
+}
+#incorrect {
+}
+#reset_board {
+}
+#card_creation {
+}
+#cards_container {
+}
+#cards_container .card {
+  border: solid 2px;
+  height: 200px;
+  width: 180px;
+}
